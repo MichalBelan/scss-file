@@ -1,0 +1,23 @@
+//Theme: light or dark
+$theme: dark;
+
+
+//For Light theme
+//Farby
+$body-background: white;
+$header-footer-background: rgb(75, 15, 60);
+$text-head-foot-color: white;
+$text-color: black;
+$ordinary-border: 2px solid black;
+
+//Velkosti
+$header-high: 50px;
+$footer-high: 50px;
+
+//For Dark theme
+@if $theme == dark{
+    $body-background:black;
+    $text-color: white;
+    $ordinary-border:2px solid white;
+
+}
